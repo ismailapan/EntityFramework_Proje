@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbEntityUrunModelStoreContainer" CdmEntityContainer="DbEntityUrunEntities">
+    <EntitySetMapping Name="TBLKATEGORI">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLKATEGORI">
+        <MappingFragment StoreEntitySet="TBLKATEGORI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLMUSTERI">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLMUSTERI">
+        <MappingFragment StoreEntitySet="TBLMUSTERI">
+          <ScalarProperty Name="MUSTERIID" ColumnName="MUSTERIID" />
+          <ScalarProperty Name="MUSTERIAD" ColumnName="MUSTERIAD" />
+          <ScalarProperty Name="MUSTERISOYAD" ColumnName="MUSTERISOYAD" />
+          <ScalarProperty Name="SEHIR" ColumnName="SEHIR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSATISLAR">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLSATISLAR">
+        <MappingFragment StoreEntitySet="TBLSATISLAR">
+          <ScalarProperty Name="ADET" ColumnName="ADET" />
+          <ScalarProperty Name="SATISID" ColumnName="SATISID" />
+          <ScalarProperty Name="URUN" ColumnName="URUN" />
+          <ScalarProperty Name="MUSTERI" ColumnName="MUSTERI" />
+          <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUNLER">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLURUNLER">
+        <MappingFragment StoreEntitySet="TBLURUNLER">
+          <ScalarProperty Name="URUNID" ColumnName="URUNID" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="STOK" ColumnName="STOK" />
+          <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+          <ScalarProperty Name="KATEGORI" ColumnName="KATEGORI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSEHIRLER">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLSEHIRLER">
+        <MappingFragment StoreEntitySet="TBLSEHIRLER">
+          <ScalarProperty Name="SEHIRAD" ColumnName="SEHIRAD" />
+          <ScalarProperty Name="PLAKA" ColumnName="PLAKA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLPERSONEL">
+      <EntityTypeMapping TypeName="DbEntityUrunModel.TBLPERSONEL">
+        <MappingFragment StoreEntitySet="TBLPERSONEL">
+          <ScalarProperty Name="PERSONSEHIR" ColumnName="PERSONSEHIR" />
+          <ScalarProperty Name="PERSONSIFRE" ColumnName="PERSONSIFRE" />
+          <ScalarProperty Name="PERSONADSOYAD" ColumnName="PERSONADSOYAD" />
+          <ScalarProperty Name="PERSONID" ColumnName="PERSONID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
